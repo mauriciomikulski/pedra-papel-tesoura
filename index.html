@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Sissors Game</title>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Rock Paper Sissors Game</h1>
+    </header>
+
+    <!-- Placar -->
+    <div class="score-board">
+        <div id="user-label" class="badge">user</div>
+        <div id="comp-label" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+
+    <!-- Resultado -->
+    <div class="result">
+        <p>Paper covers Rock. You win!</p>
+    </div>
+
+    <!-- Botões de jogada -->
+    <div class="choices">
+        <div id="r" class="choice">
+            <img src="images/rock.png" alt="">
+        </div>
+        <div id="p" class="choice">
+            <img src="images/paper.png" alt="">
+        </div>
+        <div id="s" class="choice">
+            <img src="images/sissors.png" alt="">
+        </div>
+    </div>
+
+    <!-- Mensagem -->
+    <p id="action-message">Make your move.</p>
+
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
